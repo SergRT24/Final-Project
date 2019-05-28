@@ -4,119 +4,24 @@
 <title>CSS Website Layout</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  margin-left: 150px;
-margin-right: 150px;
-}
-
-/* Style the header */
-.header {
-  background-color: #7ec246;
-  padding: 20px;
-  text-align: center;
-  margin:0px auto;
-}
-
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: black;
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-a{
-  font-size: 20px;
-}
-
-}
-h1, h2, .indent{
-  margin-left: 240px;
-margin-right: 240px;
-}
-.ed-indent{
-  margin-left: 170px;
-margin-right: 170px;
-}
-<style>
-table {
-  width:100%;
-  height: 50%;
-}
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-th, td {
-  padding: 15px;
-  text-align: left;
-}
-table#t01 tr:nth-child(even) {
-  background-color: #green;
-}
-table#t01 tr:nth-child(odd) {
- background-color: #fff;
-}
-table#t01 th {
-  background-color: white;
-  color: black;
-}
-.centerTH{
-  text-align: center;
-  font-size: 30px;
-  font-family: "Courier New", Courier, monospace;
-}
-p{
-  font-size: 28px;
-}
-
-.font{
-  font-size: 18px;
-  text-indent:40px;
-}
-.header2{
-  font-size: 50px;
-}
-
-
-</style>
-</style>
+<link rel="stylesheet" href="css/background.css">
 </head>
 <body>
 
-<div class="header">
-  <h1 class="header2">History of HTML, CSS, and JavaScript</h1>
-</div>
+  <div class="header">
+    <h1 class="resume" >History Of The Web</h1>
+  </div>
 
 <div class="topnav">
   <a href="Resume.html">Resume</a>
   <a href="HistoryOfWeb.html">History of Web</a>
   <a href="BestWork.html">Best Work</a>
-  <a href="Lakers.html"><img src="images/Lakerslink.jpg" width="50" height="50"></a>
-  <a href="Packers.html"><img src="images/PackersLink.jpg" width="50" height="50"></a>
+  <a href="Lakers.html"><img src="images/Lakerslink.jpg" width="50" height="30"></a>
+  <a href="Packers.html"><img src="images/PackersLink.jpg" width="50" height="30"></a>
 
 
 </div>
-<article class="">
+
 
   <table id="t01" style="table-layout: fixed; width: 100%" >
   <tr>
@@ -162,4 +67,5 @@ p{
 
   </tr>
 </table>
-</article>
+</body>
+</html>
