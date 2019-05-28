@@ -81,3 +81,16 @@ table#t01 th {
   font-size: 30px;
   font-family: "Courier New", Courier, monospace;
 }
+.head-shot{
+  float: right;
+  border: 1px solid #ddd;
+  border-width: 20px;
+  width:200px;
+  height:40px;
+  /*margin-left: 20px; */
+
+}
+.headshot-hr{
+  width: 60%;
+  margin-right: 90px;
+}
